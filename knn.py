@@ -9,11 +9,11 @@ st.header('Nanthakorn Department of Information Technology')
 import streamlit as st
 from PIL import Image
 
-# โหลดรูปภาพ
+
 image = Image.open("./image/PP.jpg")
 
-# แสดงรูปภาพโดยกำหนดความกว้างและความสูง
-st.image(image, width=300, caption="Image with custom size")
+
+st.image(image, width=300)
 col1, col2, col3 = st.columns(3)
 
 with col1:
