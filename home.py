@@ -7,7 +7,7 @@ st.header("Website Developing using Python")
 st.image('./image/PP.jpg')
 st.subheader("Nanthakorn Silpachai")
 
-dt=pd.read_csv('./data/iris-3.csv')
+dt=pd.read_csv('./data/iris.csv')
 st.header("ข้อมูลดอกไม้")
 st.write(dt.head(10))
  
