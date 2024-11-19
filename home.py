@@ -10,8 +10,7 @@ st.subheader("Nanthakorn Silpachai")
 dt=pd.read_csv('./data/iris-3.csv')
 st.header("ข้อมูลดอกไม้")
 st.write(dt.head(10))
-
-Jaturapat Polrob
+ 
 st.subheader("สถิติข้อมูลดอกไม้ Iris")
 st.write('ผลรวม')
 cl1,cl2,cl3,cl4=st.columns(4)
