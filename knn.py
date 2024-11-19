@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.header('Nanthakorn')
-#st.image("./pic/kairung.jpg")
+st.header('Nanthakorn Department of Information Technology')
+st.image("./image/PP.jpg")
 col1, col2, col3 = st.columns(3)
 
 with col1:
